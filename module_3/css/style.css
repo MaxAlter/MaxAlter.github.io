@@ -1,0 +1,183 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+
+}
+
+body {
+  font-family: "Playfair Display", "Arial", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.visually_hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+
+
+/*  header start */
+
+
+
+.page {
+  width: 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+nav {
+  padding: 77px 163px 103px 163px;
+  height: 19px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #626262;
+}
+
+
+.navigation li {
+  display: inline-block;
+  height: 19px;
+}
+
+.navigation {
+  height: 19px;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-size: 14px;
+}
+
+a:hover,
+a:focus {
+  color: #03a9f4;
+}
+
+.one {
+  margin-right: 120px;
+}
+
+.two {
+  margin-right: 100px;
+}
+
+.thee {
+  margin-right: 90px;
+}
+
+
+/* header  end */
+
+
+
+/* MAIN START */
+
+
+img {
+  display: block;
+  width: 420px;
+  height: 280px;
+}
+
+.bloc:nth-child(5n) {
+  margin-bottom: 0;
+}
+
+.bloc:nth-child(6n) {
+  margin-bottom: 0;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.bloc {
+  display: inline-block;
+  width: 420px;
+  height: auto;
+  margin-bottom: 140px;
+}
+
+.bloc:nth-child(2n) {
+  margin-left: 60px;
+}
+
+.text-photo {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 21px;
+}
+
+.main-text {
+  color: #626262;
+  font-size: 30px;
+  margin-top: 0px;
+  line-height: 36px;
+  margin-bottom: 40px;
+}
+
+.text {
+  margin: 0 auto;
+  margin-top: auto;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+/* MAIN END */
+
+/* BATTON START */
+
+.batton {
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  margin-top: 60px;
+}
+
+button {
+  display: block;
+  height: 60px;
+  margin-bottom: 70px;
+  margin: 0 auto;
+  width: 165px;
+  line-height: 24px;
+  border: 1px solid #626262;
+  color: #626262;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  color: #03a9f4;
+  border: 1px solid #03a9f4;
+}
