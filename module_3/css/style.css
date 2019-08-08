@@ -151,6 +151,11 @@ img {
   line-height: 24px;
 }
 
+.content {
+  margin-bottom: 57px;
+}
+
+
 
 /* MAIN END */
 
@@ -160,24 +165,24 @@ img {
   width: 900px;
   margin: 0 auto;
   margin-bottom: 70px;
-  margin-top: 60px;
 }
 
-button {
+/* .batton {
   display: block;
-  height: 60px;
-  margin-bottom: 70px;
   margin: 0 auto;
+  height: 60px;
   width: 165px;
-  line-height: 24px;
   border: 1px solid #626262;
-  color: #626262;
   font-size: 20px;
+  line-height: 24px;
+  color: #626262;
+  margin-bottom: 70px;
   cursor: pointer;
-}
+} */
 
-button:hover,
-button:focus {
+.batton:hover,
+.batton:focus {
   color: #03a9f4;
   border: 1px solid #03a9f4;
 }
+
