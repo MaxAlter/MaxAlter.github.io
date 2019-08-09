@@ -141,6 +141,7 @@ a {
 .featur-list {
     height: 674px;
     margin: 0 auto;
+    margin-bottom: 105px;
 }
 
 .featur-list li:nth-child(4n) {
@@ -191,18 +192,14 @@ p {
     transition: 0.1s;
 }
 
-.featur-list a :hover {
-    background-color: #1abc9c;
+.product:hover .product-price {
+    background-color: #7fd9c7;
     transition: 0.1s;
 }
 
-.featur-list a :hover {
+.product:hover .product-name {
     background-color: #1abc9c;
     transition: 0.1s;
-}
-
-.product-list {
-    margin-bottom: 105PX;
 }
 
 /*  END RPODUCT LIST */
