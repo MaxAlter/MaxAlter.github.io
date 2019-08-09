@@ -191,7 +191,7 @@ p {
     transition: 0.1s;
 }
 
-.featur-list a  :hover {
+.featur-list a :hover {
     background-color: #1abc9c;
     transition: 0.1s;
 }
@@ -285,15 +285,17 @@ p {
 
 /* button */
 .load-more {
-    height: 53px;
-    font-size: 16px;
-    width: 160px;
-    line-height: 26px;
-    border-radius: 5px;
-    font-weight: 300;
-    background-color: #4ec6ab;
+    height: 50px;
+    margin-bottom: 85px;
+}
+
+button {
     font-family: "Open Sans", sans-serif;
     color: #ffffff;
-    cursor: pointer;
-    margin-bottom: 85px;
+    border-radius: 3px;
+    height: 51px;
+    width: 160px;
+    background-color: #4ec6ab;
+    border: 1px solid #4ec6ab;
+    font-size: 16px;
 }
