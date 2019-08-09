@@ -161,28 +161,28 @@ img {
 
 /* BATTON START */
 
-
 .button {
-  width: 165px;
-  height: 60px;
+  width: 900px;
   margin: 0 auto;
   margin-bottom: 70px;
+  display: inline-block;
   margin-left: 358px;
 }
 
 .load {
-  text-align: center;
-  display: inline-block;
-  height: 60px;
-  width: 165px;
+  font-family: "Playfair Display", "Arial", sans-serif;
+  height: 59px;
+  width: 164px;
   font-size: 20px;
+  text-align: center;
+  background-color: #ffffff;
   color: #626262;
-  margin-bottom: 70px;
-  cursor: pointer;
+  border: 1px solid #626262;
+
 }
 
-.button:hover,
-.button:focus {
+.load:hover,
+.load:focus {
   color: #03a9f4;
   border: 1px solid #03a9f4;
 }
