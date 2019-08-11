@@ -40,7 +40,7 @@ body {
 }
 
 
-/*  STARTED HEDER  */
+/*  STARTED HEADER  */
 .wrapper {
     width: 1110px;
     margin: 0 auto;
@@ -77,6 +77,7 @@ body {
 }
 
 a {
+    display: block;
     font-weight: 700;
     font-family: "Open Sans";
     text-decoration: none;
@@ -90,7 +91,7 @@ a {
     transition: 0.1s;
 }
 
-/* END HESDER */
+/* END HEADER */
 
 /*  CONTENT START */
 
@@ -116,7 +117,7 @@ a {
     background-color: #1abc9c;
 }
 
-.featur-list {
+.featurs-list {
     text-decoration: none;
     list-style: none;
     padding: 0;
@@ -124,7 +125,7 @@ a {
 
 
 
-.featur-list li {
+.featurs-list li {
     height: 322px;
     width: 255px;
     float: left;
@@ -133,33 +134,33 @@ a {
 }
 
 
-.featur-list img {
+.featurs-list img {
     width: 255px;
     height: 282px;
 }
 
-.featur-list {
+.featurs-list {
     height: 674px;
     margin: 0 auto;
     margin-bottom: 105px;
 }
 
-.featur-list li:nth-child(4n) {
+.featurs-list li:nth-child(4n) {
     margin-right: 0;
 }
 
-.featur-list li:nth-child(-n+4) {
+.featurs-list li:nth-child(-n+4) {
     margin-bottom: 30px;
 }
 
 
-.featur-list p {
+.featurs-list p {
     float: left;
 }
 
 p {
     padding: 0;
-    margin: 0 auto;
+    margin: 0 ;
 }
 
 /* ИМЯ */
@@ -168,7 +169,6 @@ p {
     padding-left: 13px;
     width: 201px;
     background-color: #323232;
-    text-decoration: none;
     text-transform: uppercase;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
@@ -232,7 +232,6 @@ p {
 
 .news-list {
     list-style: none;
-    text-decoration: none;
     margin: 0 auto;
     padding: 0;
 }
@@ -256,7 +255,6 @@ p {
 }
 
 .text-photo {
-    margin-top: 0;
     font-weight: 600;
     color: #555252;
     margin-bottom: 25px;
