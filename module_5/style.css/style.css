@@ -127,7 +127,7 @@ body {
 
 .slider-button-back {
     left: 80px;
-    background-image: url(/icons/icon-prev.png);
+    background-image: url(../icons/icon-prev.png);
     background-position: center;
     background-repeat: no-repeat;
 
@@ -135,7 +135,7 @@ body {
 
 .slider-button-next {
     right: 80px;
-    background-image: url(/icons/icon-next.png);
+    background-image: url(../icons/icon-next.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -298,7 +298,7 @@ body {
 
 .button-clock {
     position: absolute;
-    background-image: url(/icons/icon-clock.png);
+    background-image: url(../icons/icon-clock.png);
     width: 50px;
     right: 35px;
     height: 50px;
@@ -313,7 +313,7 @@ body {
 
 .button-heart {
     position: absolute;
-    background-image: url(/icons/icon-heart.png);
+    background-image: url(../icons/icon-heart.png);
     width: 50px;
     height: 50px;
     left: 35px;
@@ -329,7 +329,7 @@ body {
 
 .button-mix {
     position: absolute;
-    background-image: url(/icons/icon-mix.png);
+    background-image: url(../icons/icon-mix.png);
     width: 50px;
     height: 50px;
     left: 93px;
@@ -344,7 +344,7 @@ body {
 }
 
 .button-card {
-    background-image: url(/icons/icon-cart.png);
+    background-image: url(../icons/icon-cart.png);
     position: absolute;
     top: 135px;
     left: 50%;
