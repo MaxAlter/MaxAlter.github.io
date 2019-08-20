@@ -1,7 +1,3 @@
-/* font-family: 'Montserrat',sans-serif; */
-/* font-family: 'Kaushan Script', cursive; */
-/* font-family: 'Roboto', sans-serif; */
-
 html {
     box-sizing: border-box;
 }
@@ -176,7 +172,6 @@ body {
     padding-left: 60px;
 }
 
-
 .service-features-item::before {
     position: absolute;
     content: '';
@@ -218,7 +213,7 @@ body {
 
 /* end list-service */
 
-/*  */
+/* start "team-members */
 
 
 .team-heading {
@@ -262,17 +257,19 @@ body {
     padding: 0;
     width: 980px;
     text-align: center;
+    margin-bottom: 90px;
 }
 
 .team-members {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin: 0;
+    margin: 0 0 80px 0;
     padding: 0;
 }
 
 .social-icons {
+    position: absolute;
     display: flex;
     list-style: none;
     padding: 0;
@@ -280,11 +277,6 @@ body {
     height: 56px;
     background-color: #fce38a;
     cursor: pointer;
-    opacity: 0;
-}
-
-.members-card:hover .social-icons {
-    opacity: 1;
 }
 
 .member-social-network {
@@ -315,26 +307,137 @@ body {
     background-image: url(../icon-social/instagram.png);
 }
 
+.social-icons {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 0;
+}
+
 .member-social-network:hover {
     background-color: #95e1d3;
 }
 
-.members-card {
-    position: relative;
+.team-img:hover .social-icons {
+    opacity: 1;
+}
+
+.team-img:hover {
+    transform: translate(-10px, -10px);
 }
 
 .team-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
+    position: relative;
     width: 380px;
     height: 470px;
+    transform: translate(0, 0);
+    transition: 0.2s linear;
+    margin-bottom: 30px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-img::before,
+.team-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.team-img::before {
+    z-index: -1;
+    background-color: #95e1d3;
+    transform: translate(0, 0);
+    transition: 0.2s linear;
+}
+
+.team-img::after {
+    opacity: 0;
+    background-image: linear-gradient(to top, #fce38a, #f38181);
+    transition: 0.2s linear;
+}
+
+.team-img:hover::after {
+    opacity: 0.9;
+}
+
+.team-img:hover::before {
+    transform: translate(10px, 10px);
+}
+
+.members-name {
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.member-profession {
+    color: #999999;
+    font-family: "Roboto - Light Italic";
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+/*  finish team-members */
+
+
+/*  footer stail */
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
+    border-top: #e5e5e5 solid 1px;
+}
+
+.footer-text {
+    margin: 0;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #f38181;
+}
+
+.input-page {
+    display: flex;
+}
+
+.input-email {
+    width: 230px;
+    height: 40px;
+    border: #e5e5e5 solid 1px;
+}
+
+.button-input {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    border: 0;
+    width: 150px;
+    height: 40px;
+    background-color: #95e1d3;
     cursor: pointer;
 }
-
-.members-card:hover .team-img {
-    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
-}
-
-
