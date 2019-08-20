@@ -1,0 +1,340 @@
+/* font-family: 'Montserrat',sans-serif; */
+/* font-family: 'Kaushan Script', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* STARTED HEADER */
+
+.nav-item a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #95e1d3;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.nav-item a:hover {
+    width: 100%;
+    color: #f38181;
+    transition: 0.1s;
+    border-bottom: 3px solid #f38181;
+}
+
+.page {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 490px;
+    justify-content: space-between;
+}
+
+.page-header {
+    display: flex;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-logo {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #95e1d3;
+    cursor: pointer;
+}
+
+.site-head {
+    margin-top: 20px;
+    margin-bottom: 113px;
+}
+
+/* HEADER END */
+
+/* HEADING SERVICE START */
+
+
+.service-subtitle {
+    text-align: center;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin: 0 0 25px 0;
+}
+
+.text-service {
+    text-align: center;
+    line-height: 35px;
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 111px;
+}
+
+.text-service::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+
+/* list-service */
+
+.list-service {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 92px 0;
+}
+
+.service-heading {
+    margin-top: 0;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.service-text {
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.service-features-item {
+    flex-basis: 381px;
+    position: relative;
+    padding-left: 60px;
+}
+
+
+.service-features-item::before {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 32px;
+    width: 32px;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 6px;
+}
+
+.icons-ALARM::before {
+    background-image: url(../icons-content/icons-ALARM.png);
+}
+
+.LINE_GRAPH::before {
+    background-image: url(../icons-content/icons-LINE_GRAPH.png);
+}
+
+.icons-computer::before {
+    background-image: url(../icons-content/icons-computer.png);
+}
+
+.icons-BOOK::before {
+    background-image: url(../icons-content/icons-BOOK.png);
+}
+
+.icons-HOME::before {
+    background-image: url(../icons-content/icons-HOME.png);
+}
+
+.icons-IMAGE::before {
+    background-image: url(../icons-content/icons-IMAGE.png);
+}
+
+.service-features-item:nth-child(-n + 3) {
+    margin-bottom: 100px;
+}
+
+/* end list-service */
+
+/*  */
+
+
+.team-heading {
+    text-align: center;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin: 0 0 25px 0;
+}
+
+.team-text {
+    text-align: center;
+    line-height: 35px;
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 46px;
+}
+
+.team-text::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+
+.about-team-text {
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 0;
+    width: 980px;
+    text-align: center;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 224px;
+    height: 56px;
+    background-color: #fce38a;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.members-card:hover .social-icons {
+    opacity: 1;
+}
+
+.member-social-network {
+    width: 56px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-right: 1px solid #f38181;
+}
+
+.member-social-network:last-child {
+    border: none;
+}
+
+.facebook {
+    background-image: url(../icon-social/facebook.png);
+}
+
+.twitter {
+    background-image: url(../icon-social/twitter.png);
+}
+
+.pinterest {
+    background-image: url(../icon-social/pinterest.png);
+}
+
+.instagram {
+    background-image: url(../icon-social/instagram.png);
+}
+
+.member-social-network:hover {
+    background-color: #95e1d3;
+}
+
+.members-card {
+    position: relative;
+}
+
+.team-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    cursor: pointer;
+}
+
+.members-card:hover .team-img {
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+}
+
+
