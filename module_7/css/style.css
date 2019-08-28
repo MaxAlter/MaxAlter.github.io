@@ -1,0 +1,328 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Parisienne';
+    src: url('../fonts/Parisienne-Regular.woff2') format('woff2'),
+        url('../fonts/Parisienne-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src: url('../fonts/DroidSerif-Italic.woff2') format('woff2'),
+        url('../fonts/DroidSerif-Italic.woff') format('woff');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fonts/RobotoSlab-Regular.woff2') format('woff2'),
+        url('../fonts/RobotoSlab-Regular.woff') format('woff');
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.visually_hidden:not(:focus):not(:active),
+input[type="checkbox"].visually_hidden,
+input[type="radio"].visually_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+
+/*  Header started */
+
+.nav-item a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #222222;
+    cursor: pointer;
+}
+
+.page {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 480px;
+    justify-content: space-between;
+}
+
+.page-header {
+    display: flex;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-logo {
+    font-family: 'Parisienne', sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 26px;
+    color: #fed136;
+    cursor: pointer;
+}
+
+.nav-item a:hover {
+    width: 100%;
+    color: #fed136;
+    transition: 0.1s;
+}
+
+.site-head {
+    margin-top: 50px;
+    margin-bottom: 125px;
+}
+
+/* Header end  */
+
+/*  START SERVICES-ITEM */
+
+
+.services-list {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.services-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    height: 37px;
+    text-align: center;
+    font-size: 40px;
+    color: #222222;
+    text-transform: uppercase;
+    margin: 0 0 19px 0;
+}
+
+.services-subtitle {
+    font-family: 'Droid Serif', sans-serif;
+    color: #777777;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 0 80px 0;
+}
+
+.services-item-list {
+    width: 290px;
+}
+
+.services-list {
+    justify-content: space-between;
+}
+
+.services-item-list::before {
+    content: "";
+    display: block;
+    width: 67px;
+    height: 67px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid #fed136;
+    border-radius: 100%;
+    margin: 0 0 27px 103px;
+}
+
+.Icon-Basket::before {
+    background-image: url(../img/icons/Icon-Basket.png);
+}
+
+.Icon-Laptop::before {
+    background-image: url(../img/icons/Icon-Laptop.png);
+}
+
+.Icon-Locked::before {
+    background-image: url(../img/icons/Icon-Locked.png);
+}
+
+.item-list-heading {
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 18px 0;
+}
+
+.item-list-subtitle {
+    font-family: 'Roboto Slab', sans-serif;
+    color: #777777;
+    line-height: 1.3;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 120px 0;
+}
+
+/* Services-item end */
+
+/* contact us  stsrt  */
+
+.contact-list {
+    height: 676px;
+    width: 1402;
+}
+
+.contact-list {
+    padding-top: 112px;
+    background-color: #222222;
+    background-image: url(../img/Map_Image.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 537px 614px;
+}
+
+.contact-heading {
+    margin: 0 0 23px 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.contact-subtitle {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Droid Serif', sans-serif;
+    color: #777777;
+    font-style: italic;
+    font-style: 16px;
+    margin-bottom: 75px;
+}
+
+.servise-form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-shrink: 5;
+}
+
+.service-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.input-item:not(:nth-last-child(1)) {
+    margin-bottom: 30px;
+}
+
+.input-field {
+    width: 455px;
+    height: 50px;
+    padding: 16px 16px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+}
+
+.input-textarea {
+    width: 455px;
+    height: 210px;
+    resize: none;
+}
+
+.validation:focus:valid {
+    outline: 2px solid rgb(12, 236, 12);
+}
+
+.validation:focus:invalid {
+    outline: 2px solid rgb(255, 0, 0);
+}
+
+.input-field::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.input-textarea {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px 20px;
+    color: #bbbbbb;
+    width: 455px;
+    height: 210px;
+    border: none;
+    border-radius: 2px;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+.button-submit {
+    margin: 0 auto;
+    color: #ffffff;
+    padding: 22px 45px;
+    width: 240px;
+    height: 66px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border: none;
+    font-size: 18px;
+    border-radius: 2px;
+    background-color: #fed136;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* END CONTACT-LIST */
