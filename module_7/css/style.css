@@ -272,6 +272,13 @@ input[type="radio"].visually_hidden {
     border-radius: 2px;
 }
 
+.input-field {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
 .input-textarea {
     width: 455px;
     height: 210px;
@@ -291,6 +298,7 @@ input[type="radio"].visually_hidden {
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
+    color: #bbbbbb;
 }
 
 .input-textarea {
@@ -300,7 +308,6 @@ input[type="radio"].visually_hidden {
     text-transform: uppercase;
     font-weight: 700;
     padding: 20px 20px;
-    color: #bbbbbb;
     width: 455px;
     height: 210px;
     border: none;
