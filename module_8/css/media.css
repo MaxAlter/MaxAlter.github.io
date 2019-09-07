@@ -1,0 +1,123 @@
+@media (min-width : 768px) {
+
+    .wrapper {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .register-header {
+        width: 100%;
+        height: 700px;
+    }
+
+    .register-header {
+        background-color: #000000;
+        background-image: url(../img/Smart.png);
+        margin-bottom: 72px;
+    }
+
+    .register-form {
+        flex-direction: row-reverse;
+        padding-top: 50px;
+        width: 669px;
+        height: 66px;
+        margin-bottom: 125px;
+    }
+
+    .register-item {
+        margin: 0;
+        height: 15px;
+        width: 177px;
+    }
+
+    .nav-text {
+        margin: 0;
+    }
+
+    .site-title {
+        line-height: 1.5;
+        width: 503px;
+        height: 139px;
+        font-size: 52px;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    .site-subtitle {
+        font-size: 24px;
+        width: 400px;
+        padding: 0;
+        margin-bottom: 34px;
+    }
+
+    .button-partner {
+        width: 237px;
+        padding: 12px 22px;
+    }
+
+    .partner-list {
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        width: 470px;
+        height: 550px;
+        margin-bottom: 40px;
+    }
+
+    .partner-list-item {
+        width: 217px;
+        height: 240px;
+        margin: 0;
+    }
+
+    .icon_1 {
+        order: 1;
+    }
+
+    .icon_2 {
+        order: 4;
+    }
+
+    .icon_3 {
+        order: 3;
+    }
+
+    .icon_4 {
+        order: 4;
+    }
+
+    .description-partner {
+        margin-bottom: 0;
+    }
+
+    .See-partners {
+        width: 193px;
+        padding: 10px 25px;
+    }
+
+}
+
+@media (min-width : 1440px) {
+    .register-form {
+        flex-direction: row-reverse;
+        padding-top: 50px;
+        width: 939px;
+        height: 36px;
+        margin-bottom: 140px;
+    }
+
+    .partner-list {
+        width: 914px;
+        height: 378px;
+        margin: auto;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    .partner-item {
+        width: 914px;
+        height: 367px;
+    }
+}
