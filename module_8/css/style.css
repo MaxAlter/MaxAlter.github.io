@@ -1,3 +1,6 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
 /*  system settings */
 
 html {
@@ -9,6 +12,7 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
 
 .visually_hidden:not(:focus):not(:active),
 input[type="checkbox"].visually_hidden,
