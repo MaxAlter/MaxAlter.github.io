@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
+    border-top: #e5e5e5 solid 1px;
+  }
+  
+  .footer__text {
+    @include font-stack(14px, 400);
+    margin: 0;
+    color: $color-text-title;
+    font-family: $font-family-montserrat;
+  }
+
+
+
+.footer__link {
+  text-decoration: none;
+  color: $primary-color-bg;
+}
+
+.footer__btn {
+  display: flex;
+}

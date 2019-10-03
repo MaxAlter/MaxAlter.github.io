@@ -1,0 +1,10 @@
+@mixin font-stack ($font-size, $font-weight) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+@mixin font-sizes ($width, $height) {
+    width: $width;
+    height: $height;
+  }
+

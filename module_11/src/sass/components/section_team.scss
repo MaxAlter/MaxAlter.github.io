@@ -1,0 +1,139 @@
+.team__before-title {
+    margin-bottom: 23px;
+  }
+  
+  .team__heading-title::after {
+    @include font-sizes(60px,3px);
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: $primary-color-bg;
+  }
+
+  .team__about-text {
+    width: 955px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-family: $font-family-roboto;
+    font-size: 15px;
+    color: $color-service-text;
+    padding-top: 45px;
+    padding-bottom: 90px;
+  }
+  
+  .team-social {
+    @include font-sizes(224px,56px);
+    background-color: $primary-color;
+  }
+  
+  .team-social__list {
+    @include font-sizes(56px,53px);
+    border-right: 1px solid $primary-color-bg;
+  }
+  
+  .team-social__item {
+    @include font-sizes(56px,56px);
+    display: flex;
+    align-items: center;
+  }
+  
+  .team-social__icon{
+    height: 26px;
+    fill: $primary-color-bg;
+  }
+  
+  .team-social__list:hover .team-social__icon {
+    fill: $primary-white-color;
+  }
+  
+  .team-social__list:hover {
+    background-color: $primary-color-bg;
+  }
+  
+  .team-members__list {
+    @include font-sizes(380px,545px);
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+  
+  .team-social {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 2;
+  }
+  
+  .team-members__item:hover {
+    transform: translate(-10px, -10px);
+  }
+  
+  .team-members__item:hover .team-social {
+    opacity: 1;
+  }
+  
+  .team-members__item {
+    @include font-sizes(380px,470px);
+    position: relative;
+    transform: translate(0, 0);
+    transition: 0.2s linear;
+  }
+  
+  .team-members__item::before,
+  .team-members__item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .team-members__item::before {
+    z-index: -1;
+    background-color: $color-features;
+    transform: translate(0, 0);
+    transition: 0.2s linear;
+  }
+  
+  .team-members__item::after {
+    opacity: 0;
+    background-image: linear-gradient(to top, #fce38a, #f38181);
+    transition: 0.2s linear;
+  }
+  
+  .team-members__item:hover::after {
+    opacity: 0.9;
+  }
+  
+  .team-members__item:hover::before {
+    transform: translate(10px, 10px);
+  }
+  
+  .team__members-name {
+    @include font-stack(14px,600);
+    padding-top: 30px;
+    margin: 0;
+    color: $color-text-title;
+    font-family: $font-family-montserrat;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .team__member-profession {
+    @include font-stack(15px,400);
+    padding-top: 15px;
+    margin: 0;
+    color: $color-service-text;
+    font-family: $font-family-roboto;
+    font-style: italic;
+    text-align: center;
+  }

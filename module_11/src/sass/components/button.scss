@@ -1,0 +1,19 @@
+.btn__email {  
+    @include font-sizes(230px,40px);
+    @include font-stack (14px,400);
+    font-family: $font-family-roboto;
+    font-style: italic;
+    color: #cccccc;
+    border: #e5e5e5 solid 1px;
+    padding-left: 13px;
+  }
+  
+  .btn__input {  
+    @include font-stack(14px,700);
+    @include font-sizes(150px,40px);
+    color: $primary-white-color;
+    font-family: $font-family-montserrat;
+    border: 0;
+    background-color: $color-features;
+    cursor: pointer;
+  }

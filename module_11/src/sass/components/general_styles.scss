@@ -1,0 +1,24 @@
+.no-gap {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
+.before-title {
+    font-family:$font-family-kaushan;
+    color: $color-text-title;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .heading-title { 
+    @include font-stack(30px,700);
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: $font-family-montserrat;
+    color: $color-text-title;
+    text-transform: uppercase;
+  }

@@ -1,0 +1,17 @@
+//  Import partials below
+@import './normalize';
+@import './base';
+@import './helpers/visually_hidden';
+@import './helpers/variable';
+@import './helpers/mixin';
+// Components
+@import './components/general_styles';
+@import './components/wrapper';
+@import './components/header';
+@import './components/page-header';
+@import './components/nav';
+@import './components/section_service';
+@import './components/list_servise';
+@import './components/section_team';
+@import './components/footer';
+@import './components/button';

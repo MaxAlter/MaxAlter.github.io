@@ -1,0 +1,21 @@
+.service__before-title {
+    margin-bottom: 20px;
+  }
+  
+  .service__heading-title::after {
+   @include font-sizes(60px,3px);
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: $primary-color-bg;
+  }
+  
+  .service__list {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 92px;
+  }

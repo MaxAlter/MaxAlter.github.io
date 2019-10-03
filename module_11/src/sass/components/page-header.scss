@@ -1,0 +1,31 @@
+.page-header__title {
+    font-family: $font-family-kaushan;
+    font-size: 72px;
+    color: $primary-white-color;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .page-header__sub-title {
+    color: $primary-white-color;
+    font-family:$font-family-montserrat;
+    font-size: 150px;
+    margin: 0 auto;
+    width: 835px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 120px;
+  }
+  
+  .page-header__btn {
+    @include font-sizes(160px,40px);
+    @include font-stack(14px,700);
+    display: block;
+    margin: 0 auto;
+    font-family: $font-family-montserrat;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: $primary-white-color;
+  }
