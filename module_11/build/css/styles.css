@@ -621,6 +621,10 @@ input[type="radio"].visually_hidden {
   border-right: 1px solid #f38181;
 }
 
+.team-social__list:last-child {
+  border: none;
+}
+
 .team-social__item {
   width: 56px;
   height: 56px;
